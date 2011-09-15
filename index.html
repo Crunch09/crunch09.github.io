@@ -1,8 +1,10 @@
-<!doctype html>
-<html>
-<head>
-<title>Florian Thomas @ GitHub</title>
-<link rel="shortcut icon" href="eightbitme.png">
-</head>
-<body>Hello World</body>
-</html>
+---
+layout: default
+---
+
+<ul>
+{% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}"><span>{{ post.date | date: "%B %e, %Y" }}</span>{{ post.title }}</a>
+    </li>
+{% endfor %}
