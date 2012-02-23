@@ -81,4 +81,20 @@ header{
     color: black;
 }
 
+#info{
+	left: 0;
+    margin-left: 20px;
+    position: fixed;
+    width: 250px;
+}
+
+div.gravatar{
+	border: 1px solid black;
+    height: 80px;
+    margin-left: 85px;
+    position: fixed;
+    width: 80px;
+	
+}
+
 
