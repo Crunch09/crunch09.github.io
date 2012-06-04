@@ -50,6 +50,8 @@ table {
 /* *************************************************** */
 
 @font-face { font-family: "04b_03"; src: url('04B_03__.TTF'); }
+@font-face { font-family: "League_Gothic"; src: url('League_Gothic.otf'); }
+@font-face { font-family: "LobsterTwo"; src: url('LobsterTwo-Italic.otf');}
 
 a{
     text-decoration: none;
@@ -71,9 +73,10 @@ h1{
     margin-top: 30px;
 }
 
-header{
+header#main{
     width: 100%;
     text-align: center;
+    height: 95px;
 }
 
 header h1{
@@ -85,6 +88,92 @@ header h1{
 header h1:hover{
     color: gray;
     text-decoration: underline;
+}
+
+nav{
+    width: 730px;
+    height: 25px;
+    background-image: linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
+    background-image: -o-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
+    background-image: -moz-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
+    background-image: -webkit-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
+    background-image: -ms-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.21, rgb(110,125,110)),
+        color-stop(0.61, rgb(114,128,114)),
+        color-stop(0.81, rgb(96,112,96))
+    );
+    padding-top: 5px;
+    padding-left: 10px;
+    border: 1px solid black;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+nav li{
+    font-family: "League_Gothic", sans-serif;
+    display: inline;
+    text-transform: uppercase;
+    padding-left: 30px;
+    padding-right: 30px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+nav li a{
+    color: black;
+}
+
+nav li:hover{
+    background-color: orange;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+section#content{
+    min-height: 250px;
+    width: 100%;
+    background-image: linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
+    background-image: -o-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
+    background-image: -moz-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
+    background-image: -webkit-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
+    background-image: -ms-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
+
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.21, rgb(93,194,93)),
+        color-stop(0.61, rgb(89,189,89)),
+        color-stop(0.81, rgb(78,186,80))
+    );
+}
+
+li.article_item{
+    width: 700px;
+    height: 40px;
+    margin-left: 10px;
+    margin-top: 5px;
+    padding-left: 5px;
+    border-bottom: 1px dotted lime;
+}
+
+li.article_item:hover{
+    background-color: orange;
+}
+
+li.article_item span{
+    margin-right: 30px;
 }
 
 #info{
@@ -117,7 +206,8 @@ div.gravatar{
 	border: 1px solid black;
     height: 80px;
     margin-left: 15px;
-    position: fixed;
+    position: relative;
+    float: left;
     width: 80px;
 	
 }
@@ -148,3 +238,33 @@ div.services img:hover{
 }
 
 
+li.article_item span{
+    font-family: "LobsterTwo";
+    position: relative;
+    float: left;
+    vertical-align: baseline;
+    width: 90px;
+    padding-top: 20px;
+}
+
+div.title{
+    font-family: "League_Gothic";
+    color: #000;
+    width: 570px;
+    position: relative;
+    float: left;
+    font-size: 30px;
+    padding-top: 7px;
+}
+
+footer{
+    text-align: center;
+    font-family: "LobsterTwo";
+    margin-top: 10px;
+    font-size: 13px;
+    color: #000;
+}
+
+footer a{
+    color: #000;
+}

@@ -1,35 +1,33 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8" />
-<meta name="author" content="Florian Thomas" />
-<title>Florian Thomas</title>
-<link rel="shortcut icon" href="../eightbitme.png">
-<link rel="stylesheet" href="../css/style.css" type="text/css" media="screen" >
-</head>
-<body>
-<div id="container">
-    <header>
-            <a href="/" onFocus="blur();"><h1>florian thomas</h1></a>
-    </header>
-    <div id="info">
-        <div class="gravatar">
+  <head>
+    <meta charset="utf-8"  />
+    <meta name="author" content="Florian Thomas" />
+    <title>Florian Thomas</title>
+    <link rel="shortcut icon" href="/eightbitme.png">
+    <link rel="stylesheet" href="/css/style.css" type="text/css" media="screen" >
+  </head>
+  <body>
+    <section id="container">
+    <header id="main">
+            <div class="gravatar">
             <a href="/"><img src="http://www.gravatar.com/avatar/1c29fc4893530950ea5101c611687062.png" alt="Gravatar" /></a>
-        </div>
-        <div class="services">
-            <a href="mailto:flo@florianthomas.net" onFocus="blur();"><img src="/images/email.png" alt="Email" title="Drop me a line" /></a>
-            <a href="http://github.com/crunch09" target="_blank" onFocus="blur();"><img src="/images/github.png" alt="GitHub" title="GitHub" onFocus="blur();" /></a>
-            <a href="http://twitter.com/crunch09" target="_blank" onFocus="blur();"><img src="/images/twitter.png" alt="Twitter" title="Follow me on Twitter" /></a>
-            <a href="http://lastfm.com/user/crunch09" target="_blank" onFocus="blur();"><img src="/images/lastfm.png" alt="LastFM" title="LastFM"/></a>
-        </div>
-    </div>
-    <div id="content">
-        Nothing to see here yet!
+            </div>
+            <a href="/" onFocus="blur();"><h1 class="name">florian thomas</h1></a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/index.html" onFocus="blur();">Home</a></li>
+        <li><a href="http://github.com/crunch09" target="_blank" onFocus="blur();">Github</a></li>
+        <li><a href="#" onFocus="blur();">About</a></li>
+      </ul>
+    </nav>
+    <section id="content">
         {{ content }}
-    </div>
+    </section>
     <footer>
-
+      <a href="mailto:flo@florianthomas.net">2012 &copy; Florian Thomas</a>
     </footer>
-</div>
-</body>
+    </section>
+  </body>
 </html>
