@@ -93,29 +93,9 @@ header h1:hover{
 nav{
     width: 730px;
     height: 25px;
-    background-image: linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
-    background-image: -o-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
-    background-image: -moz-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
-    background-image: -webkit-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
-    background-image: -ms-linear-gradient(bottom, rgb(110,125,110) 21%, rgb(114,128,114) 61%, rgb(96,112,96) 81%);
-
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.21, rgb(110,125,110)),
-        color-stop(0.61, rgb(114,128,114)),
-        color-stop(0.81, rgb(96,112,96))
-    );
     padding-top: 5px;
     padding-left: 10px;
-    border: 1px solid black;
-    -webkit-border-top-left-radius: 5px;
-    -webkit-border-bottom-right-radius: 5px;
-    -moz-border-radius-topleft: 5px;
-    -moz-border-radius-bottomright: 5px;
-    border-top-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    background-color: rgb(227, 236, 227);
 }
 
 nav li{
@@ -143,20 +123,10 @@ nav li:hover{
 section#content{
     min-height: 250px;
     width: 100%;
-    background-image: linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
-    background-image: -o-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
-    background-image: -moz-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
-    background-image: -webkit-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
-    background-image: -ms-linear-gradient(bottom, rgb(93,194,93) 21%, rgb(89,189,89) 61%, rgb(78,186,80) 81%);
+}
 
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.21, rgb(93,194,93)),
-        color-stop(0.61, rgb(89,189,89)),
-        color-stop(0.81, rgb(78,186,80))
-    );
+div.content{
+    margin: 10px;
 }
 
 li.article_item{
@@ -165,7 +135,7 @@ li.article_item{
     margin-left: 10px;
     margin-top: 5px;
     padding-left: 5px;
-    border-bottom: 1px dotted lime;
+    border-bottom: 1px dotted rgb(227, 236, 227);
 }
 
 li.article_item:hover{
@@ -233,7 +203,7 @@ div.services img{
 }
 
 div.services img:hover{
-    border: 1px solid lime;
+    border: 1px solid rgb(227, 236, 227);
     border-radius: 5px;
 }
 
