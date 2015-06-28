@@ -238,3 +238,17 @@ footer{
 footer a{
     color: #000;
 }
+
+.project{
+	margin: 5px 0;
+}
+
+.project-links a{
+	font-family: "League_Gothic", sans-serif;
+	color: orange;
+	text-transform: uppercase;
+}
+
+.project-links a:hover{
+	text-decoration: underline;
+}
