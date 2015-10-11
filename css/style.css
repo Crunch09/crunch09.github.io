@@ -52,6 +52,8 @@ table {
 @font-face { font-family: "04b_03"; src: url('04B_03__.TTF'); }
 @font-face { font-family: "League_Gothic"; src: url('League_Gothic.otf'); }
 @font-face { font-family: "LobsterTwo"; src: url('LobsterTwo-Italic.otf');}
+@font-face { font-family: "CaviarDreams"; src: url('CaviarDreams.ttf');}
+
 
 a{
     text-decoration: none;
@@ -65,6 +67,9 @@ h1{
     font-size: 28px;
 }
 
+em{
+	font-style: italic;
+}
 
 #container{
     width: 740px;
@@ -125,8 +130,20 @@ section#content{
     width: 100%;
 }
 
-div.content{
+section.content{
     margin: 10px;
+}
+
+.content h1{
+	font-family: "League_Gothic";
+	color: #000;
+	text-align: center;
+}
+
+.content p{
+	font-family: CaviarDreams, sans-serif;
+	margin: 10px 0;
+	font-size: 18px;
 }
 
 li.article_item{
