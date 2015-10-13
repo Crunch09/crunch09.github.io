@@ -52,7 +52,7 @@ table {
 @font-face { font-family: "04b_03"; src: url('04B_03__.TTF'); }
 @font-face { font-family: "League_Gothic"; src: url('League_Gothic.otf'); }
 @font-face { font-family: "LobsterTwo"; src: url('LobsterTwo-Italic.otf');}
-@font-face { font-family: "CaviarDreams"; src: url('CaviarDreams.ttf');}
+@font-face { font-family: "GeosansLight"; src: url('GeosansLight.ttf');}
 
 
 a{
@@ -141,9 +141,9 @@ section.content{
 }
 
 .content p{
-	font-family: CaviarDreams, sans-serif;
+	font-family: GeosansLight, sans-serif;
 	margin: 10px 0;
-	font-size: 18px;
+	font-size: 23px;
 }
 
 li.article_item{
