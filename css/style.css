@@ -53,6 +53,7 @@ table {
 @font-face { font-family: "League_Gothic"; src: url('League_Gothic.otf'); }
 @font-face { font-family: "LobsterTwo"; src: url('LobsterTwo-Italic.otf');}
 @font-face { font-family: "GeosansLight"; src: url('GeosansLight.ttf');}
+@font-face { font-family: "GeosansLight"; src: url('GeosansLight-Oblique.ttf'); font-style: italic, oblique;}
 
 
 a{
