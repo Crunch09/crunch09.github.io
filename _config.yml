@@ -1,3 +1,4 @@
 permalink: pretty
 gems:
   - jekyll-gist
+  - jekyll-seo-tag
