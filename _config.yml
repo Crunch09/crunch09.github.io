@@ -1,3 +1,4 @@
+DontShowPostsBefore: 2014-08-01t01:00:00.00-08:00
 permalink: pretty
 gems:
   - jekyll-gist
