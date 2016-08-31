@@ -4,8 +4,7 @@ title: "Florian Thomas"
 ---
 
 <ul>
-{% assign posts = site.posts | where_exp:"post","post.date > site.DontShowPostsBefore" %}
-{% for post in posts %}
+{% for post in site.posts %}
     <li class="article_item">
         <a href="{{ post.url }}"><span>{{ post.date | date: "%B %e, %Y" }}</span>
           <div class="title">{{ post.title }}</div>
