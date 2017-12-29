@@ -1,5 +1,13 @@
 permalink: pretty
-gems:
+plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-mentions
+  - jekyll-feed
+  - jekyll-paginate
+# remote_theme: "yous/whiteglass"
+remote_theme: "fongandrew/hydeout"
+title: "Florian Thomas"
+description: "my personal blog"
+twitter:
+  username: "Crunch09"
