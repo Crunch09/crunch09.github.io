@@ -79,8 +79,8 @@ third contribution for the Hacktoberfest goal merged! 🙌
 
 ## Compromises
 
-For the fourth pull requestI wanted to contribute in an unknown language again. While I was still
-debating whether I should go with Rust or Elixir i realised that i had almost
+For the fourth pull request i wanted to contribute in an unknown language again. While I was still
+debating whether i should go with Rust or Elixir i realised that i had almost
 reached the end of Hacktoberfest and because i was also expecting guests for a couple
 of days i realised that i wouldn't be able to learn enough in a new language before the end of the month to be able to contribute. I came to the conclusion that i should focus on a PR in familiar territory (aka "Ruby") instead.
 
