@@ -12,3 +12,6 @@ title: "Florian Thomas"
 description: "my personal blog"
 twitter:
   username: "Crunch09"
+jeql:
+  github:
+    url: "https://api.github.com/graphql"
