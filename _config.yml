@@ -4,7 +4,8 @@ plugins:
   - jekyll-seo-tag
   - jekyll-mentions
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-remote-theme
+  - jeql
 # remote_theme: "yous/whiteglass"
 remote_theme: "fongandrew/hydeout"
 title: "Florian Thomas"
