@@ -157,7 +157,7 @@ As I quickly learned the hotline is closed at night so I didn't have to run my c
 1.Feb 2019: My bot was running fine for about 10 days now and finally it
 happened around 1pm, I got an SMS confirming that tickets were available again!
 
-I couldn't really believe it until I actually called myself but tickets were
+I couldn't really believe it until I called myself but tickets were
 actually available and I bought two of them in the Dortmund sector! Needless to
 say that I was very happy that day :)
 To make all those calls and then transcribe them cost me around £30 in addition
