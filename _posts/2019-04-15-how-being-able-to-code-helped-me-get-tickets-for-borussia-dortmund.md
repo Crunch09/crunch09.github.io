@@ -94,7 +94,7 @@ I needed to send HTTP requests to Twilio's API endpoints instead. Twilio created
 events like making a phone call or receiving an SMS.
 
 A phone call is very easy to initiate, just use the TwiML verb
-[TWIML's <Call\> verb](https://www.twilio.com/docs/voice/twiml/call) with
+[<Call\>](https://www.twilio.com/docs/voice/twiml/call) with
 a previously bought number. As the number of the hotline is a restricted number
 I needed to make sure that I allow calls to the hotline in my Twilio settings.
 
